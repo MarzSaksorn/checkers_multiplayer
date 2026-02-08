@@ -4,4 +4,4 @@ A School Project that requires AI to build every aspect of everything from essay
 
 AI that teacher requires is Canva AI
 
-You can play on https://www.marzweb.win/checkers_multiplayer
+You can play on https://www.marzweb.win/checkers_multiplayer/
