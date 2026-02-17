@@ -26,8 +26,8 @@ const logger = winston.createLogger({
 // 2. SSL Credentials - RESTORED
 let credentials = {};
 try {
-    const privateKey = fs.readFileSync(path.join(__dirname, 'server.key'), 'utf8');
-    const certificate = fs.readFileSync(path.join(__dirname, 'server.cert'), 'utf8');
+    const privateKey = fs.readFileSync(path.join(__dirname, 'ssl-key'), 'utf8');
+    const certificate = fs.readFileSync(path.join(__dirname, 'ssl-cert'), 'utf8');
     credentials = { key: privateKey, cert: certificate };
     logger.info("SSL Certificates loaded successfully.");
 } catch (err) {
